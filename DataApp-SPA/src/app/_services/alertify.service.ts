@@ -16,10 +16,6 @@ export class AlertifyService {
     });
   }
 
-  succes(message: string) {
-    alertify.succes(message);
-  }
-
   error(message: string) {
     alertify.error(message);
   }
@@ -30,5 +26,9 @@ export class AlertifyService {
 
   message(message: string) {
     alertify.message(message);
+  }
+
+  success(message: string) {
+    alertify.success(message);
   }
 }
